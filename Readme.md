@@ -35,3 +35,5 @@ Run `npm install` or `yarn install` to install dependencies.
 Run `yarn start` to start the Parcel development server. The PWA will be available on http://localhost:1234/.
 
 Run `yarn api` to start the API server for the app.
+
+If using [Lando](https://lando.dev), just run `lando start`. The app will be available on http://labs.lndo.site.

@@ -1,0 +1,17 @@
+name: PWA Labs
+
+config:
+  webroot: .
+
+proxy:
+  pwa:
+    - labs.lndo.site:1234
+
+services:
+  pwa:
+    type: node:16
+    ssl: false
+    build:
+      - yarn install
+    command:
+      - /app/landostart.sh
